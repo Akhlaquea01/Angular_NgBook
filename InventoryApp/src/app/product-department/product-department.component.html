@@ -1,6 +1,6 @@
 <div class="product-department">
-  2 <span *ngFor="let name of product.department; let i=index">
-  3 <a href="#">{{ name }}</a>
-  4 <span>{{i < (product.department.length-1) ? '>' : ''}}</span>
-  5 </span>
-  6 </div>
+  <span *ngFor="let name of product.department; let i=index">
+    <a href="#">{{ name }}</a>
+    <span>{{i < (product.department.length-1) ? '>' : ''}}</span>
+  </span>
+</div>
